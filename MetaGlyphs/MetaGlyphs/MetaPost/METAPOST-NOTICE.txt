@@ -1,0 +1,24 @@
+Bundled MetaPost engine
+======================
+
+MetaPost 3.00 (TeX Live 2026)
+
+Original author: John Hobby.
+Author of the CWEB MetaPost: Taco Hoekwater.
+Maintainer identified by this executable: Luigi Scarso.
+
+The MetaPost source code is in the public domain. The bundled mpost.mp and
+plain.mp macro files also identify themselves as public domain.
+
+MetaPost also uses code available under the GNU Lesser General Public License,
+version 3 or later; therefore the MetaPost executable is covered by the LGPL.
+There is NO warranty. See COPYING and COPYING.LESSER for the license texts.
+
+This notice concerns the engine and its covered components, not a grant of a
+GPL or LGPL license for the plugin's own code.
+
+See REDISTRIBUTION.md for redistribution requirements and SOURCE.txt for the
+component inventory and outstanding corresponding-source verification.
+
+Upstream project: https://tug.org/metapost.html
+License: https://www.gnu.org/licenses/lgpl-3.0.html
