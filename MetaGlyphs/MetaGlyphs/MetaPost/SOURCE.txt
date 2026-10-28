@@ -30,6 +30,7 @@ Upstream starting points for locating sources (not verified matching sources):
 
 Before a binary release, complete these items:
 
+  - Add the full GPL v3 and LGPL v3 license texts as COPYING and COPYING.LESSER.
   - Identify the precise BasicTeX/TeX Live binary distribution and source
     revision used to build this executable.
   - Obtain the complete corresponding source, including covered dependencies,

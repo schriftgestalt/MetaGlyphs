@@ -45,10 +45,14 @@ of the plugin’s own source code.
 
 ## Release status
 
-The license texts and these instructions are not a complete source
-distribution. Before publishing a binary release, verify the matching source
-access and all component notices described in `SOURCE.txt`. Do not present
-the general upstream links as a complete source offer.
+The full license texts (`COPYING` and `COPYING.LESSER`) have not yet been
+added to this folder. Obtain unmodified copies from GNU using the links below
+and include them with the engine before publishing a binary release.
+
+These instructions are not a complete source distribution. Matching source
+access and component notices also remain to be verified as described in
+`SOURCE.txt`. Do not present the general upstream links as a complete source
+offer.
 
 References:
 

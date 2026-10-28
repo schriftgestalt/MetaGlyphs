@@ -12,7 +12,8 @@ plain.mp macro files also identify themselves as public domain.
 
 MetaPost also uses code available under the GNU Lesser General Public License,
 version 3 or later; therefore the MetaPost executable is covered by the LGPL.
-There is NO warranty. See COPYING and COPYING.LESSER for the license texts.
+There is NO warranty. Distributions must include the license texts as COPYING
+and COPYING.LESSER. See REDISTRIBUTION.md for their current inclusion status.
 
 This notice concerns the engine and its covered components, not a grant of a
 GPL or LGPL license for the plugin's own code.
