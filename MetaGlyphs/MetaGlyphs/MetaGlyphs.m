@@ -77,8 +77,12 @@ static double MPMetric(GSLayer *layer, GSMetricsType type, double fallback) {
 	NSError *generationError = nil;
 	BOOL success = [self generateLayer:layer error:&generationError];
 	[MPCompileDiagnostics.sharedDiagnostics recordError:success ? nil : generationError forLayer:layer sourceState:sourceState];
-	if (error) *error = generationError;
-	return success;
+	// This is the preview preparation callback. Rejecting preparation makes
+	// Glyphs lose the editable layer while the user is still correcting code.
+	// Generation failures already leave the incoming outlines intact and are
+	// reported in Messages; keep that fallback layer available to the host.
+	if (error) *error = nil;
+	return YES;
 }
 
 - (BOOL)generateLayer:(GSLayer *)layer error:(NSError **)error {
