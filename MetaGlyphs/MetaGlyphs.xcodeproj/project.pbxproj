@@ -157,7 +157,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_TEAM = X2L8375ZQ7;
 				DSTROOT = "$(USER_LIBRARY_DIR)/Application Support/Glyphs 4/Plugins";
@@ -189,7 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = X2L8375ZQ7;
 				FRAMEWORK_SEARCH_PATHS = "\"/Applications/Glyphs 4.2.app/Contents/Frameworks\"";
 				GCC_PREFIX_HEADER = "MetaGlyphs/MetaGlyphs-Prefix.pch";
